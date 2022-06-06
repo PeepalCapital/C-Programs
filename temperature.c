@@ -12,6 +12,8 @@ main()
     upper = 300;    /* upper limit */
     step = 20;      /* step size */
 
+    printf("This is a conversion table from Fahrenheit to Celsius\n");
+
     fahr = lower;
     while (fahr <= upper) 
     {
