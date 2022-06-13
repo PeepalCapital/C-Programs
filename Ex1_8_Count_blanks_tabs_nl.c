@@ -9,10 +9,10 @@ main()
     
     while ((c = getchar()) != EOF)
         if (c == ' ')
-        ++nb;
+            ++nb;
         else if (c == '\t')
-         ++nt;
+            ++nt;
         else if (c == '\n')
-        ++nl;
+            ++nl;
     printf ("blanks: %d tabs: %d lines: %d\n", nb, nt, nl);
 }
