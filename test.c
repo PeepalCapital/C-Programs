@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    printf("Hello World third testing");
-    return 0;
+main()
+{
+    printf("Hello World third testing\c");
+    printf("new line test");
 }
