@@ -10,7 +10,7 @@ main()
         {
             printf("%2d ", i);
             for (j = 0; j < i; ++j)
-                printf("Avisha is naughty");
+                printf("Avisha is naughty girl");
             printf("\n");  
         }         
 }
