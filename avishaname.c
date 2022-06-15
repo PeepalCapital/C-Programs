@@ -8,7 +8,7 @@ main()
         {
             printf("%2d ", i);
             for (j = 0; j < i; ++j)
-                printf("Avisha ");
+                printf("Avisha is naughty");
             printf("\n");  
         }         
 }
