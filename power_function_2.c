@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* method 1 of calculating power functions */
+/* method 2 of calculating power functions */
 
 int power(int m, int n);
 
@@ -15,11 +15,9 @@ main()
 
 int power(int base, int n)
 {
-    int i,p;
+    int i;
     
-
-    p = 1;
-    for (i = 1; i < n; ++i)
-        p = p * base;
-    return p;
+    for (i = 1; i > 0; --i)
+        i = i * base;
+    return i;
 }    
