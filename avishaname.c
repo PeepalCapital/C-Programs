@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+/* Program for entertaining my daughter */
+
 main()
 {
     int i, j;
