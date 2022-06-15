@@ -10,6 +10,5 @@ main()
             for (j = 0; j < i; ++j)
                 printf("Avisha ");
             printf("\n");  
-        }       
-        
+        }         
 }
