@@ -4,8 +4,9 @@
 #define OUT 0 /* outside a word */
 
 /* count lines, words and characters in input */
+/* This code doesn't work for me. This is the example in the book. */
 
-main()
+int main(void)
 {
     int c, nl, nw, nc, state;
 
@@ -24,5 +25,8 @@ main()
             ++nw;
         }
     }
-    printf("lines: %d words: %d chars: %d\n", nl, nw, nc);
+    printf("lines: %d words: %d charcters: %d\n", nl, nw, nc);
+    
+
+    return 0;
 }
