@@ -8,21 +8,24 @@ int main(void)
     int c, nc, nw, nl, state;
     nc = nw = nl = 0;
 
+    state = OUT;
     while((c = getchar()) != EOF)
-        if (c == ' ' || c == '\n' || c == '\b')
         {
-            state = OUT;
             ++nc;
-            if (c == '\n')
+        if (c == '\n')
             {
                 ++nl;
-            }    
-        }
-        else
-        {
-            state = IN;
-            ++nw;
-        }
+            }
+        if (c == ' ' || c == '\n' || c == '\t')
+            {
+                state = OUT;
+            }
+        else if (state == OUT)
+            {
+                state = IN;
+                ++nw;
+            }
+        }       
     printf("lines: %d, words: %d, chars: %d\n", nl, nw, nc);
     return 0;
 }
