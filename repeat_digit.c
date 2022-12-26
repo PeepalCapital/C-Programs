@@ -24,6 +24,8 @@ int main(void)
     else
         printf("No repeated digit\n");
 
-    return 0;
+    return 0:
+
+    
     
 }

@@ -2,12 +2,14 @@
 
 int slength(char s[]);
 
-main()
+int main(void)
 {
-    char c;
+    char line[10];
+    line[10] = getchar();
+    printf("%s\n", line);
 
-    c = getchar();
-    printf("%d\n", slength(c));
+
+    return 0;
 }
 
 int slength(char s[])
